@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#new-party-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#party-container {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.party {
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px;
+  border-style: solid;
+  border-radius: 0.45rem;
+}
+.details-button,
+.delete-button {
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+.details-button:hover,
+.delete-button:hover {
+  background-color: antiquewhite;
+}
